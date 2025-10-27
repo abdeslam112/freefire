@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تسجيل حساب</title>
+    <link rel="stylesheet" href="STYL.CSS">
+</head>
+<body>
+    <!-- نموذج التسجيل -->
+    <div class="form-container" id="form-container">
+        <form id="signup-form">
+            <h2>تسجيل حساب جديد لشحن جواهر فريفاير مجانا</h2>
+            
+            <label for="name">الايدي فريفاير :</label>
+            <input type="text" id="name" name="username" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">كلمة المرور:</label>
+            <input type="password" id="password" name="password" minlength="6" required>
+
+            <label for="gender">الجنس:</label>
+            <select id="gender" name="gender">
+                <option value="male">ذكر</option>
+                <option value="female">أنثى</option>
+            </select>
+
+            <label>
+                <input type="checkbox" name="agree" required>
+                أوافق على الشروط والأحكام
+            </label>
+
+            <button type="submit">إنشاء الحساب</button>
+        </form>
+    </div>
+    <footer class="foot" >عبد السلام يقدم لكم جواهر فريفاير بالمجان</footer>
+
+    <!-- صفحة الترحيب بعد التسجيل -->
+    <div class="success-container" id="success-container" style="display: none;">
+        <h1>🎉 تهانينا!</h1>
+        <p>لقد وصلتك 300 جوهره الي الايدي</p>
+        <button id="back-button">العودة للصفحة الرئيسية</button>
+    </div>
+
+    <script src="INDEX.JS"></script>
+</body>
+</html>
