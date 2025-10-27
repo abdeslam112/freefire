@@ -63,14 +63,14 @@ body {
 }
 
 footer {
-    background-color: #1e90ff; /* لون الخلفية */
-    color: white; /* لون النص */
-    text-align: center; /* يضع النص في منتصف الفوتر أفقياً */
-    padding: 15px 0; /* مسافة من الأعلى والأسفل */
-    position: fixed; /* لتثبيته دائماً */
-    bottom: 0; /* أسفل الصفحة */
-    width: 100%; /* يغطي عرض الصفحة كله */
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* ظل خفيف للفوتر */
+    background-color: #1e90ff; 
+    color: white; 
+    text-align: center; 
+    padding: 15px 0; 
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2); 
 }
 
 
@@ -107,3 +107,4 @@ footer {
 .success-container button:hover {
     background-color: #0b62c4;
 }
+
